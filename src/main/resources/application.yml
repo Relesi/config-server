@@ -1,13 +1,18 @@
-
+     
 server:
   port: 8888
-
+  
 spring:
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          search-locations: /microservice-repo
+        encrypt:
+            enabled: false
+        git: 
+          uri:  https://github.com/Relesi/config-repo.git
+          search-paths: provider
+          
+          
+          
+          
           
