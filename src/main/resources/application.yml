@@ -10,7 +10,7 @@ spring:
             enabled: false
         git: 
           uri:  https://github.com/Relesi/config-repo.git
-          search-paths: provider
+          search-paths: provider, store
           
           
           
